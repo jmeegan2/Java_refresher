@@ -15,11 +15,12 @@ public class LearnJava {
 //        System.out.println(name.toLowerCase());
 
         //this part is for the method
-        addExclamationPoint("hot dogs");
+       String exclaim =  addExclamationPoint("hot dogs");
+       System.out.println(exclaim);
     }
         //Adding a method
-        public static void addExclamationPoint(String s) {
-            System.out.println(s + "!");
+        public static String addExclamationPoint(String s) {
+            return s + "!";
         }
     }
 
